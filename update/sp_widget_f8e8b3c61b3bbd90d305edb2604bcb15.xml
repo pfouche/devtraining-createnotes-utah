@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>pf_notes_list</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Notes list</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>pierre.fouche@dxc.com</sys_created_by>
+        <sys_created_on>2024-01-19 17:27:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f8e8b3c61b3bbd90d305edb2604bcb15</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Notes list</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_update_name>sp_widget_f8e8b3c61b3bbd90d305edb2604bcb15</sys_update_name>
+        <sys_updated_by>pierre.fouche@dxc.com</sys_updated_by>
+        <sys_updated_on>2024-01-19 17:28:31</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+      <div class="panel-heading clearfix">
+        <h3 class="panel-title pull-left">
+          ${Notes}
+        </h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          Notes list widget
+        </p>
+      </div>
+    </div>]]></template>
+    </sp_widget>
+</record_update>
